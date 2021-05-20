@@ -1,0 +1,18 @@
+logger:
+  name: "ITester"
+  level: "DEBUG"
+  format: '%(filename)s-%(lineno)d-%(asctime)s-%(levelname)s-%(message)s'
+
+host:
+  dev_url: "http://api.lemonban.com/futureloan"
+
+headers:
+
+
+user:
+  mobile_phone: "15302721618"
+  pwd: "12345678"
+
+
+
+
