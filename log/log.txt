@@ -219,3 +219,9 @@ test_recharge.py-36-2021-05-20 16:16:18,647-INFO-当前用例的测试数据：{
 test_recharge.py-34-2021-05-20 16:16:18,692-INFO-****************************************************************************************
 test_recharge.py-35-2021-05-20 16:16:18,692-INFO-当前是第2条用例：充值金额小于0
 test_recharge.py-36-2021-05-20 16:16:18,692-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": -10}', 'expected_result': 2}
+test_recharge.py-34-2021-05-21 10:55:23,258-INFO-****************************************************************************************
+test_recharge.py-35-2021-05-21 10:55:23,258-INFO-当前是第1条用例：充值金额大于0小于50万
+test_recharge.py-36-2021-05-21 10:55:23,259-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": 10}', 'expected_result': 0}
+test_recharge.py-34-2021-05-21 10:55:23,292-INFO-****************************************************************************************
+test_recharge.py-35-2021-05-21 10:55:23,292-INFO-当前是第2条用例：充值金额小于0
+test_recharge.py-36-2021-05-21 10:55:23,292-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": -10}', 'expected_result': 2}
