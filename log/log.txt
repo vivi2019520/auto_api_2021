@@ -641,3 +641,39 @@ test_recharge.py-25-2021-05-26 11:56:50,535-INFO-当前用例的测试数据：{
 test_recharge.py-23-2021-05-26 11:56:50,571-INFO-****************************************************************************************
 test_recharge.py-24-2021-05-26 11:56:50,572-INFO-当前是第2条用例：充值金额小于0
 test_recharge.py-25-2021-05-26 11:56:50,572-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": -10}', 'expected_result': 2}
+test_login.py-22-2021-05-26 17:13:51,206-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:13:51,207-INFO-当前是第1条用例：正确用户名、正确密码
+test_login.py-24-2021-05-26 17:13:51,207-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确密码', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": "12345678"}', 'expected_result': 0, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:13:51,545-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:13:51,546-INFO-当前是第2条用例：正确用户名、正确为空
+test_login.py-24-2021-05-26 17:13:51,546-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确为空', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": ""}', 'expected_result': 1, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:13:51,572-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:13:51,572-INFO-当前是第3条用例：用户名为空、正确密码
+test_login.py-24-2021-05-26 17:13:51,572-INFO-当前用例的测试数据：{'case_id': 3, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '用户名为空、正确密码', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "","pwd": "12345678"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:13:51,602-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:13:51,602-INFO-当前是第4条用例：正确用户名、密码错误
+test_login.py-24-2021-05-26 17:13:51,603-INFO-当前用例的测试数据：{'case_id': 4, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、密码错误', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": "123456789"}', 'expected_result': 1001, 'actual_result': None, 'test_result': None}
+test_recharge.py-23-2021-05-26 17:13:51,958-INFO-****************************************************************************************
+test_recharge.py-24-2021-05-26 17:13:51,959-INFO-当前是第1条用例：充值金额大于0小于50万
+test_recharge.py-25-2021-05-26 17:13:51,959-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": 10}', 'expected_result': 0}
+test_recharge.py-23-2021-05-26 17:13:52,007-INFO-****************************************************************************************
+test_recharge.py-24-2021-05-26 17:13:52,008-INFO-当前是第2条用例：充值金额小于0
+test_recharge.py-25-2021-05-26 17:13:52,008-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": -10}', 'expected_result': 2}
+test_login.py-22-2021-05-26 17:17:16,105-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:17:16,106-INFO-当前是第1条用例：正确用户名、正确密码
+test_login.py-24-2021-05-26 17:17:16,107-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确密码', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": "12345678"}', 'expected_result': 0, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:17:16,495-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:17:16,496-INFO-当前是第2条用例：正确用户名、正确为空
+test_login.py-24-2021-05-26 17:17:16,497-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确为空', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": ""}', 'expected_result': 1, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:17:16,519-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:17:16,520-INFO-当前是第3条用例：用户名为空、正确密码
+test_login.py-24-2021-05-26 17:17:16,520-INFO-当前用例的测试数据：{'case_id': 3, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '用户名为空、正确密码', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "","pwd": "12345678"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}
+test_login.py-22-2021-05-26 17:17:16,543-INFO-****************************************************************************************
+test_login.py-23-2021-05-26 17:17:16,544-INFO-当前是第4条用例：正确用户名、密码错误
+test_login.py-24-2021-05-26 17:17:16,544-INFO-当前用例的测试数据：{'case_id': 4, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、密码错误', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v3"}', 'payload': '{"mobile_phone": "15302721618","pwd": "123456789"}', 'expected_result': 1001, 'actual_result': None, 'test_result': None}
+test_recharge.py-23-2021-05-26 17:17:16,790-INFO-****************************************************************************************
+test_recharge.py-24-2021-05-26 17:17:16,790-INFO-当前是第1条用例：充值金额大于0小于50万
+test_recharge.py-25-2021-05-26 17:17:16,791-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": 10}', 'expected_result': 0}
+test_recharge.py-23-2021-05-26 17:17:16,839-INFO-****************************************************************************************
+test_recharge.py-24-2021-05-26 17:17:16,839-INFO-当前是第2条用例：充值金额小于0
+test_recharge.py-25-2021-05-26 17:17:16,840-INFO-当前用例的测试数据：{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": -10}', 'expected_result': 2}
