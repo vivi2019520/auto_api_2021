@@ -1,0 +1,128 @@
+{
+  "uid" : "686243b063347408",
+  "name" : "test_login[data1]",
+  "fullName" : "test_cases.recharge.test_recharge.TestRecharge#test_login",
+  "historyId" : "0f0d7cb15ae8a30a139b860d519e7605",
+  "time" : {
+    "start" : 1622001410572,
+    "stop" : 1622001410587,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "recharge_fixture",
+    "time" : {
+      "start" : 1622001410506,
+      "stop" : 1622001410506,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "token_fixture",
+    "time" : {
+      "start" : 1622001410506,
+      "stop" : 1622001410534,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f153fcaeb7d345c",
+      "name" : "stderr",
+      "source" : "9f153fcaeb7d345c.txt",
+      "type" : "text/plain",
+      "size" : 568
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "recharge_fixture::0",
+    "time" : {
+      "start" : 1622001410593,
+      "stop" : 1622001410593,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_cases.recharge"
+  }, {
+    "name" : "suite",
+    "value" : "test_recharge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N1E829R"
+  }, {
+    "name" : "thread",
+    "value" : "7888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.recharge.test_recharge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": -10}', 'expected_result': 2}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65315da0845befab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621999586366,
+        "stop" : 1621999586384,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "686243b063347408.json",
+  "parameterValues" : [ "{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": -10}', 'expected_result': 2}" ]
+}

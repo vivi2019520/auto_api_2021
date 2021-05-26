@@ -36,7 +36,6 @@ class ExcelHandler:
         data = []
         for row in rows[1:]:
             row_data = []
-            # data.append(row)
             for cell in row:
                 row_data.append(cell.value)
                 data_dict = dict(zip(self.get_header(sheet_name),row_data))

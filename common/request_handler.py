@@ -16,7 +16,14 @@ class RequestHandler:
         self.session = requests.session()
 
     def request(self, method, url, params=None, data=None, json=None, headers=None, **kwargs):
-        return self.session.request(method, url, params=params, data=data, json=json, headers=headers, **kwargs)
+        result = self.session.request(method, url, params=params, data=data, json=json, headers=headers, **kwargs)
+        if result.json():
+            return result.json()
+        else:
+            return result.text
+
+    # def request(self,req):
+    #     return self.session.request(**req)
 
     def close_session(self):
         """关闭session"""

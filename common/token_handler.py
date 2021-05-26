@@ -19,15 +19,12 @@ class TokenHandler:
     def login(self):
         res = self.req.request(method="post", url=yaml_data["host"]["dev_url"] + "/member/login",
                                headers={"X-Lemonban-Media-Type": "lemonban.v2"}, json=yaml_data["user"])
-        return res.json()
+        return res
 
     def save_token(self):
         res = self.login()
         token_type = jsonpath(res, "$..token_type")[0]
-        token = jsonpath(res, "$..token")[0]
-        final_token = token_type + " "+ token
+        token_result = jsonpath(res, "$..token")[0]
+        final_token = token_type + " " + token_result
         return final_token
-
-
-token = TokenHandler().save_token()
 

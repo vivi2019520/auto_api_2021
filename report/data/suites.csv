@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 26 11:56:50 CST 2021","Wed May 26 11:56:50 CST 2021","13","test_cases.login","test_login","TestLogin","","","test_login[data1]",""
+"passed","Wed May 26 11:56:50 CST 2021","Wed May 26 11:56:50 CST 2021","24","test_cases.recharge","test_recharge","TestRecharge","","","test_login[data0]",""
+"passed","Wed May 26 11:56:50 CST 2021","Wed May 26 11:56:50 CST 2021","297","test_cases.login","test_login","TestLogin","","","test_login[data3]",""
+"passed","Wed May 26 11:56:50 CST 2021","Wed May 26 11:56:50 CST 2021","15","test_cases.recharge","test_recharge","TestRecharge","","","test_login[data1]",""
+"passed","Wed May 26 11:56:49 CST 2021","Wed May 26 11:56:50 CST 2021","391","test_cases.login","test_login","TestLogin","","","test_login[data0]",""
+"passed","Wed May 26 11:56:50 CST 2021","Wed May 26 11:56:50 CST 2021","13","test_cases.login","test_login","TestLogin","","","test_login[data2]",""

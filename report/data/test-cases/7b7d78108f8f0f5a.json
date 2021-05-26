@@ -1,0 +1,102 @@
+{
+  "uid" : "7b7d78108f8f0f5a",
+  "name" : "test_login[data0]",
+  "fullName" : "test_cases.recharge.test_recharge.TestRecharge#test_login",
+  "historyId" : "9ca9751a2674162d783415665c7b00f2",
+  "time" : {
+    "start" : 1621999586321,
+    "stop" : 1621999586358,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token_fixture",
+    "time" : {
+      "start" : 1621999586292,
+      "stop" : 1621999586320,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "recharge_fixture",
+    "time" : {
+      "start" : 1621999586291,
+      "stop" : 1621999586291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "recharge_fixture::0",
+    "time" : {
+      "start" : 1621999586389,
+      "stop" : 1621999586390,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_cases.recharge"
+  }, {
+    "name" : "suite",
+    "value" : "test_recharge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRecharge"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N1E829R"
+  }, {
+    "name" : "thread",
+    "value" : "18688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.recharge.test_recharge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": 10}', 'expected_result': 0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b7d78108f8f0f5a.json",
+  "parameterValues" : [ "{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": 10}', 'expected_result': 0}" ]
+}

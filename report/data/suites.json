@@ -1,0 +1,107 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_cases.login",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login[data0]",
+          "uid" : "5061eb577e384080",
+          "parentUid" : "bf5cceba02e87d9e2c260a9c6fc19273",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001409744,
+            "stop" : 1622001410135,
+            "duration" : 391
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 1, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确密码', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"15302721618\",\"pwd\": \"12345678\"}', 'expected_result': 0, 'actual_result': None, 'test_result': None}" ]
+        }, {
+          "name" : "test_login[data1]",
+          "uid" : "c86986dba97f34fb",
+          "parentUid" : "bf5cceba02e87d9e2c260a9c6fc19273",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001410151,
+            "stop" : 1622001410164,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 2, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确为空', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"15302721618\",\"pwd\": \"\"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}" ]
+        }, {
+          "name" : "test_login[data2]",
+          "uid" : "da31f1f771a28a51",
+          "parentUid" : "bf5cceba02e87d9e2c260a9c6fc19273",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001410175,
+            "stop" : 1622001410188,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 3, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '用户名为空、正确密码', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"\",\"pwd\": \"12345678\"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}" ]
+        }, {
+          "name" : "test_login[data3]",
+          "uid" : "73318b5a9e7cfc37",
+          "parentUid" : "bf5cceba02e87d9e2c260a9c6fc19273",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001410200,
+            "stop" : 1622001410497,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 4, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、密码错误', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"15302721618\",\"pwd\": \"123456789\"}', 'expected_result': 1001, 'actual_result': None, 'test_result': None}" ]
+        } ],
+        "uid" : "bf5cceba02e87d9e2c260a9c6fc19273"
+      } ],
+      "uid" : "b030e1870d045884113139e7ae9c9ee1"
+    } ],
+    "uid" : "be06e7acb033c4320beebed58918978b"
+  }, {
+    "name" : "test_cases.recharge",
+    "children" : [ {
+      "name" : "test_recharge",
+      "children" : [ {
+        "name" : "TestRecharge",
+        "children" : [ {
+          "name" : "test_login[data0]",
+          "uid" : "9c3927064e9b8a6f",
+          "parentUid" : "bde9a42903c7852368bba47763f64d06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001410536,
+            "stop" : 1622001410560,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": 10}', 'expected_result': 0}" ]
+        }, {
+          "name" : "test_login[data1]",
+          "uid" : "686243b063347408",
+          "parentUid" : "bde9a42903c7852368bba47763f64d06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622001410572,
+            "stop" : 1622001410587,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_id': 2, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额小于0', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v2\"}', 'payload': '{\"member_id\": 1000636075,\"amount\": -10}', 'expected_result': 2}" ]
+        } ],
+        "uid" : "bde9a42903c7852368bba47763f64d06"
+      } ],
+      "uid" : "7d3bc0fdcfd7a744b958d824770de3e1"
+    } ],
+    "uid" : "caaf3f3d3a5830715b85cd1545f1892b"
+  } ]
+}

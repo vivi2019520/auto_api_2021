@@ -9,6 +9,7 @@
 import yaml
 from config.path import Config
 
+
 class YamlHandler:
 
     def __init__(self, file):
@@ -24,4 +25,3 @@ class YamlHandler:
 
 
 yaml_data = YamlHandler(Config.config_yaml_path).read_yaml()
-

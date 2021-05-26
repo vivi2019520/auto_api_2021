@@ -1,0 +1,113 @@
+{
+  "uid" : "c86986dba97f34fb",
+  "name" : "test_login[data1]",
+  "fullName" : "test_cases.login.test_login.TestLogin#test_login",
+  "historyId" : "b3226d6fe78fffc08bef5c020fcedce8",
+  "time" : {
+    "start" : 1622001410151,
+    "stop" : 1622001410164,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1622001409735,
+      "stop" : 1622001409736,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30cf1ba94e4e7965",
+      "name" : "stderr",
+      "source" : "30cf1ba94e4e7965.txt",
+      "type" : "text/plain",
+      "size" : 624
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "login_fixture::0",
+    "time" : {
+      "start" : 1622001410596,
+      "stop" : 1622001410596,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_cases.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N1E829R"
+  }, {
+    "name" : "thread",
+    "value" : "7888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_id': 2, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确为空', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"15302721618\",\"pwd\": \"\"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c9315243d3afe5d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621999586043,
+        "stop" : 1621999586059,
+        "duration" : 16
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c86986dba97f34fb.json",
+  "parameterValues" : [ "{'case_id': 2, 'model_name': '登录接口', 'url': '/member/login', 'case_title': '正确用户名、正确为空', 'method': 'post', 'headers': '{\"X-Lemonban-Media-Type\":\"lemonban.v3\"}', 'payload': '{\"mobile_phone\": \"15302721618\",\"pwd\": \"\"}', 'expected_result': 1, 'actual_result': None, 'test_result': None}" ]
+}
