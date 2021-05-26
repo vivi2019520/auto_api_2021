@@ -1,0 +1,3 @@
+test_recharge.py-23-2021-05-26 17:13:51,958-INFO-****************************************************************************************
+test_recharge.py-24-2021-05-26 17:13:51,959-INFO-当前是第1条用例：充值金额大于0小于50万
+test_recharge.py-25-2021-05-26 17:13:51,959-INFO-当前用例的测试数据：{'case_id': 1, 'model_name': '充值接口', 'url': '/member/recharge', 'case_title': '充值金额大于0小于50万', 'method': 'post', 'headers': '{"X-Lemonban-Media-Type":"lemonban.v2"}', 'payload': '{"member_id": 1000636075,"amount": 10}', 'expected_result': 0}
